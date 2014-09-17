@@ -1,0 +1,227 @@
+.top-toolbar
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8%;
+  line-height:270%;
+  background-color:353a3e;
+  text-align:center;
+  color:ffffff;
+  margin:0;
+  padding:0;
+}
+#toolbar-link
+{
+margin-right:50px;
+font-family:"Myriad Pro", arial, helvetica, sans-serif;
+position: relative;
+  top: 10%;
+  transform: translateY(-10%);
+}
+.top-titlebar
+{
+position: relative;
+width: 100%;
+z-index: -1;
+background-image:url('images/VegasSkyline.jpg');
+background-size:100% 100%;
+background-repeat:no-repeat;
+background-color:black;
+height: 85%;
+text-align:center;
+}
+.biopic-container
+{
+display:inline-block;
+width: 50%;
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+p.biopic
+{
+text-align:center;
+top: 20%;
+}
+h1.portrait-name
+{
+text-align: center;
+color:white;
+font-family:"Myriad Pro", arial, helvetica, sans-serif;
+margin-bottom:0;
+font-style:normal;
+font-weight:normal;
+}
+h2.profession-title
+{
+font-family:"Myriad Pro", arial, helvetica, sans-serif;
+font-size: 1.1em;
+font-weight:normal;
+color:white;
+margin-top:0;
+padding-top:0;
+text-align:center;
+}
+h3.availability
+{
+font-family:"Myriad Pro", arial, helvetica, sans-serif;
+font-size: 0.9em;
+font-weight:normal;
+color:white;
+text-align:center;
+}
+a.hire-button {
+ display: table;
+    margin: auto;
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 10px 20px;
+   -webkit-border-radius: 19px;
+   -moz-border-radius: 19px;
+   border-radius: 19px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 19px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   text-align:center;
+   }
+.hire-button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.hire-button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+   
+.intro-section {
+width:100%;
+padding-top: 15px;
+padding-bottom: 75px;
+text-align:center;
+}
+p.intro
+{
+margin-left: 15%;
+margin-right: 15%;
+margin-bottom: 75px;
+text-align: center;
+font-family:"Myriad Pro", arial, helvetica, sans-serif;
+text-indent: 40px;
+font-size: 1.3em;
+font-weight:normal;
+}
+
+.socialmediabtn
+{
+display:inline-block;
+text-align:center;
+margin:auto;
+padding-right: 25px;
+}
+
+.latestwork-section {
+position: relative;
+width: 100%;
+z-index: -1;
+background-image:url('images/blurryide.png');
+background-size:100% 100%;
+background-repeat:no-repeat;
+background-color:black;
+height: 75%;
+text-align:center;
+}
+
+.latestwork-container
+{
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+
+h1.latest-work
+{
+text-align: center;
+color:white;
+font-family:"Myriad Pro", arial, helvetica, sans-serif;
+margin-bottom:0;
+font-style:normal;
+font-weight:normal;
+padding-bottom: 20px;
+}
+h2.latest-work
+{
+font-family:"Myriad Pro", arial, helvetica, sans-serif;
+font-size: 1.1em;
+font-weight:normal;
+color:white;
+margin-top:0;
+padding-top:0;
+text-align:center;
+padding-left: 375px;
+padding-right: 375px;
+padding-bottom: 40px;
+}
+.latestwork-button {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 13px 26px;
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 17px;
+   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.latestwork-button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.latestwork-button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+
+h1.other-works
+{
+color: black;
+font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+font-weight:normal;
+}
+
+a:link {
+    text-decoration: none;
+	color:ffffff;
+}
+
+a:visited {
+    text-decoration: none;
+	color:ffffff;
+}
+
+body {margin:0;padding:0}
