@@ -17,8 +17,7 @@
 margin-right:50px;
 font-family:"Myriad Pro", arial, helvetica, sans-serif;
 position: relative;
-  top: 10%;
-  transform: translateY(-10%);
+vertical-align:center;
 }
 .top-titlebar
 {
