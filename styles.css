@@ -9,8 +9,13 @@
 
   
 }
-#toolbar-link
+#nav-backtotop
 {
+background-image: url('images/backtotop.png');
+}
+.toolbar-link
+{
+background-repeat:no-repeat;
 margin-right:50px;
 font-family:"Myriad Pro", arial, helvetica, sans-serif;
 position: relative;
