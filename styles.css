@@ -12,6 +12,25 @@
 #nav-backtotop
 {
 background-image: url('images/backtotop.png');
+padding-left: 30px;
+padding-bottom: 20px;
+}
+#nav-aboutme
+{
+background-image: url('images/aboutme.png');
+padding-left: 30px;
+}
+#nav-projects
+{
+background-image: url('images/projects.png');
+padding-left: 30px;
+padding-bottom: 20px;
+}
+#nav-contactme
+{
+background-image: url('images/contactme.png');
+padding-left: 30px;
+padding-bottom: 20px;
 }
 .toolbar-link
 {
@@ -20,6 +39,8 @@ margin-right:50px;
 font-family:"Myriad Pro", arial, helvetica, sans-serif;
 position: relative;
 line-height: 50px;
+padding-left: 25px;
+padding-top: 3px;
 }
 .top-titlebar
 {
