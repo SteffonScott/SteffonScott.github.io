@@ -1,3 +1,7 @@
+h1 { font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif; }
+h2 { font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif; }
+p { font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif; color:black; }
+a { font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif; }
 .top-toolbar
 {
   position: fixed;
@@ -74,14 +78,12 @@ h1.portrait-name
 {
 text-align: center;
 color:white;
-font-family:"Myriad Pro", arial, helvetica, sans-serif;
 margin-bottom:0;
 font-style:normal;
 font-weight:normal;
 }
 h2.profession-title
 {
-font-family:"Myriad Pro", arial, helvetica, sans-serif;
 font-size: 1.1em;
 font-weight:normal;
 color:white;
@@ -91,7 +93,6 @@ text-align:center;
 }
 h3.availability
 {
-font-family:"Myriad Pro", arial, helvetica, sans-serif;
 font-size: 0.9em;
 font-weight:normal;
 color:white;
@@ -117,7 +118,6 @@ a.hire-button {
    text-shadow: rgba(0,0,0,.4) 0 1px 0;
    color: white;
    font-size: 19px;
-   font-family: Helvetica, Arial, Sans-Serif;
    text-decoration: none;
    vertical-align: middle;
    text-align:center;
@@ -145,7 +145,6 @@ margin-right: 15%;
 margin-top: 3%;
 margin-bottom: 75px;
 text-align: center;
-font-family:"Myriad Pro", arial, helvetica, sans-serif;
 text-indent: 40px;
 font-size: 1.3em;
 font-weight:normal;
@@ -182,7 +181,6 @@ h1.latest-work
 {
 text-align: center;
 color:white;
-font-family:"Myriad Pro", arial, helvetica, sans-serif;
 margin-bottom:0;
 font-style:normal;
 font-weight:normal;
@@ -190,7 +188,6 @@ padding-bottom: 20px;
 }
 h2.latest-work
 {
-font-family:"Myriad Pro", arial, helvetica, sans-serif;
 font-size: 1.1em;
 font-weight:normal;
 color:white;
@@ -236,10 +233,21 @@ padding-bottom: 40px;
 h1.other-works
 {
 color: black;
-font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
 font-weight:normal;
+margin-bottom: 5%;
 }
+.other-works-image
+{
+display: inline-block;
+margin: 0 auto;
+padding-right: 25px;
 
+}
+img.other-works
+{
+height: 198px;
+width: 247px;
+}
 .projects-container {
 width:100%;
 padding-top: 15px;
