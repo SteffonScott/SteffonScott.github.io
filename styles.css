@@ -36,6 +36,12 @@ background-image: url('images/contactme.png');
 padding-left: 30px;
 padding-bottom: 20px;
 }
+#nav-downloadresume
+{
+padding-left: 30px;
+margin-left: 15px;
+background-image: url('images/download.png');
+}
 .toolbar-link
 {
 background-repeat:no-repeat;
@@ -135,7 +141,7 @@ a.hire-button {
 .intro-section {
 width:100%;
 padding-top: 15px;
-padding-bottom: 75px;
+padding-bottom: 25px;
 text-align:center;
 }
 p.intro
