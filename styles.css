@@ -2,6 +2,7 @@ h1 { font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif; }
 h2 { font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif; }
 p { font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif; color:black; }
 a { font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif; }
+
 .top-toolbar
 {
   position: fixed;
@@ -16,29 +17,24 @@ a { font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif; }
 #nav-backtotop
 {
 background-image: url('images/backtotop.png');
-padding-left: 30px;
 padding-bottom: 20px;
 }
 #nav-aboutme
 {
 background-image: url('images/aboutme.png');
-padding-left: 30px;
 }
 #nav-projects
 {
 background-image: url('images/projects.png');
-padding-left: 30px;
 padding-bottom: 20px;
 }
 #nav-contactme
 {
 background-image: url('images/contactme.png');
-padding-left: 30px;
 padding-bottom: 20px;
 }
 #nav-downloadresume
 {
-padding-left: 30px;
 margin-left: 15px;
 background-image: url('images/download.png');
 }
@@ -49,7 +45,7 @@ margin-right:50px;
 font-family:"Myriad Pro", arial, helvetica, sans-serif;
 position: relative;
 line-height: 50px;
-padding-left: 25px;
+padding-left: 30px;
 padding-top: 3px;
 }
 .toolbar-link:hover {
@@ -261,6 +257,17 @@ border:2px solid #021a40;
 width:100%;
 padding-top: 15px;
 padding-bottom: 75px;
+text-align:center;
+}
+
+.contact-section {
+position: relative;
+width: 100%;
+z-index: -1;
+background-size:100% 100%;
+background-repeat:no-repeat;
+background: linear-gradient(0deg, black, white 90%) no-repeat;
+height: 75%;
 text-align:center;
 }
 a:link {
